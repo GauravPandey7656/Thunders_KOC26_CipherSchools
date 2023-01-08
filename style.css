@@ -32,7 +32,7 @@ body {
   cursor: pointer;
   outline: none;
   margin-top: 1em;
-  text-transform: uppercase;
+  text-transform:uppercase;
   font-weight: small;
 }
 
@@ -87,9 +87,9 @@ body {
 
 .menu-items a {
   text-decoration: none;
-  color: #444;
+  /* color: #444; */
   font-weight: 500;
-  transition: color 0.3s ease-in-out;
+  transition:color 0.3s ease-in-out;
 }
 
 .menu-items a:hover {
