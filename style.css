@@ -94,7 +94,7 @@ body {
 
 .menu-items a:hover {
   color: #117964;
-  transition: color 0.3s ease-in-out;
+  transition: color 1s ease-in-out;
 }
 
 .logo {
@@ -231,11 +231,11 @@ body {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  z-index: 2;
+  /* transform: translate(-50%, -50%); */
+  /* opacity: 0; */
+  /* z-index: 2; */
   text-align: center;
-  transition: all 0.3s ease-in-out 0.1s;
+  /* transition: all 0.3s ease-in-out 0.1s; */
 }
 
 .img-content h3 {
@@ -247,7 +247,7 @@ body {
   font-size: 1.2rem;
 }
 
-.img-container::after {
+/* .img-container::after {
   content: "";
   display: block;
   position: absolute;
@@ -255,24 +255,24 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.871);
-  opacity: 0;
-  z-index: 1;
+  background: rgba(0, 0, 0, 0.871); */
+  /* opacity: 0; */
+  /* z-index: 1; */
 
-  transform: scaleY(0);
-  transform-origin: 100% 100%;
-  transition: all 0.3s ease-in-out;
-}
+  /* transform: scaleY(0); */
+  /* transform-origin: 100% 100%; */
+  /* transition: all 0.3s ease-in-out; */
+/* } */
 
-.img-container:hover::after {
-  opacity: 1;
-  transform: scaleY(1);
-}
+/* .img-container:hover::after { 
+  opacity: 1; */
+  /* transform: scaleY(1); */
+/* } */
 
-.img-container:hover .img-content {
+/* .img-container:hover .img-content {
   opacity: 1;
   top: 40%;
-}
+} */
 
 /* .........../Food Menu/............ */
 
